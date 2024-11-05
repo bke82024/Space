@@ -2,6 +2,7 @@
     margin: 0;
     box-sizing: border-box;
     font-size: 30px;
+    max-width: 100%;
 }
 
 body{
@@ -110,6 +111,7 @@ a:hover {
 
 video {
   width: 650px;
+  
 }
 
 @media (prefers-reduced-motion) {
