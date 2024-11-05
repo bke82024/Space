@@ -5,4 +5,40 @@
 
 body{
     min-height: 100svh;
+    
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+.bg-img {
+  min-height: 100svh;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: grid;
+  place-items: center;
+  background-color: dimgrey;
+}
+#first {
+    background-image: url(./assets/Sun.jpeg);
+}
+
+nav{
+    border: solid 1px black;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  column-gap: 20px;
+}
+
+@media (prefers-reduced-motion) {
+  html {
+    scroll-behavior: auto;
+  }
 }
