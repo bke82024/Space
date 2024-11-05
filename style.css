@@ -29,6 +29,15 @@ html {
 
 nav{
     border: solid 1px black;
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(0, 22, 5);
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+
 }
 
 ul {
