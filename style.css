@@ -114,8 +114,8 @@ a:hover {
   color: gray;
 }
 
-video {
-  width: 500px;
+.video-link {
+  width: 600px;
   height: auto;
   
 }
