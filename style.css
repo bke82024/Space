@@ -8,12 +8,15 @@
 
 body{
     min-height: 100svh;
+    background-image: url(./assets/pitchblack.webp);
+  
     
 }
 
 
 html {
     scroll-behavior: smooth;
+    background-image: url(./assets/pitchblack.webp);
     
 }
 
@@ -26,21 +29,20 @@ html {
   display: grid;
   place-items: center;
   background-color: dimgrey;
+  background-image: url(./assets/pitchblack.webp);
   
 }
-#first {
-    background-image: url(./assets/Sun.jpeg);
-}
+/* #first {
+    background-image: url(./assets/universe1.jpg);
+} */
 
 nav{
-    border: solid 1px black;
     display: grid;
   justify-content: space-between;
   align-items: center;
-  background-color: rgb(0, 22, 5);
-  padding: 20px;
+  /* background-color: rgb(0, 22, 5); */
+  /* padding: 20px; */
   position: fixed;
-  top: 0;
   width: 100%;
 
 }
@@ -64,7 +66,7 @@ ul {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: rgb(0, 22, 5);
+  
   color: aliceblue;
 }
 
@@ -89,8 +91,8 @@ p {
 
 h1 {
   padding: 20px;
-  background-color: hsl(57deg 96% 9%);
-  color: antiquewhite;
+  /* background-color: hsl(57deg 96% 9%); */
+  color:white;
   border-radius: 10px;
   letter-spacing: 3px;
 }
@@ -98,8 +100,8 @@ h1 {
 
 h2 {
   padding: 2rem;
-  background-color: hsla(57, 96%, 9%, 65%);
-  color: antiquewhite;
+  /* background-color: hsla(57, 96%, 9%, 65%); */
+  color: white;
   border-radius: 10px;
   letter-spacing: 3px;
 }
@@ -112,8 +114,8 @@ a:hover {
   color: gray;
 }
 
-video {
-  width: 500px;
+.video-link {
+  width: 600px;
   height: auto;
   
 }
