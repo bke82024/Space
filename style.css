@@ -75,18 +75,16 @@ div {
 }
 
 p {
-
 	font-size: 24px;
 	letter-spacing: 0.6px;
 	line-height: 25px;
 	margin-top: 20px;
 	letter-spacing: 1px;
-=======
-  font-size: 20px;
-  letter-spacing: 0.6px;
-  line-height: 25px;
-  margin-top: 20px;
-  letter-spacing: 1px;
+	font-size: 20px;
+	letter-spacing: 0.6px;
+	line-height: 25px;
+	margin-top: 20px;
+	letter-spacing: 1px;
 }
 
 h1 {
@@ -105,8 +103,8 @@ h2 {
 	letter-spacing: 3px;
 }
 
-h3{
-  font-size: 2rem;
+h3 {
+	font-size: 2rem;
 }
 
 a {
