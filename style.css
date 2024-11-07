@@ -15,6 +15,12 @@ html {
   background-image: url(./assets/pitchblack.webp);
 }
 
+h1 {
+  padding: 10px 20px;
+  color: white;
+  letter-spacing: 3px;
+}
+
 ul {
   gap: 0.5rem;
   display: flex;
@@ -240,14 +246,6 @@ p {
   line-height: 25px;
   margin-top: 20px;
   letter-spacing: 1px;
-}
-
-h1 {
-  padding: 20px;
-  /* background-color: hsl(57deg 96% 9%); */
-  color: white;
-  border-radius: 10px;
-  letter-spacing: 3px;
 }
 
 h2 {
