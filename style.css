@@ -13,6 +13,10 @@ body {
   background-attachment: fixed;
 }
 
+nav {
+  position: fixed;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -29,6 +33,20 @@ li {
   list-style: none;
   border: 1px solid black;
   color: white;
+}
+
+#sun-bg {
+  font-size: 0.5rem;
+  color: white;
+  text-decoration: none;
+  background-color: black;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  height: 3rem;
+  width: 3rem;
 }
 
 #mercury-bg {
@@ -155,6 +173,10 @@ li {
   display: flex;
   height: 3rem;
   width: 3rem;
+}
+
+#sun-bg:hover {
+  background-image: url(assets/Sun.jpeg);
 }
 
 #mercury-bg:hover {
