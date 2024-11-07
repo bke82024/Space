@@ -16,6 +16,182 @@ body {
 html {
   scroll-behavior: smooth;
 }
+ul {
+  gap: 0.5rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  text-decoration: none;
+}
+li {
+  font-size: 0.5rem;
+  text-decoration: none;
+  list-style: none;
+  border: 1px solid black;
+  color: white;
+}
+
+#mercury-bg {
+  font-size: 0.5rem;
+  color: white;
+  text-decoration: none;
+  background-color: black;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  height: 3rem;
+  width: 3rem;
+}
+
+#venus-bg {
+  font-size: 0.5rem;
+  color: white;
+  text-decoration: none;
+  background-color: black;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  height: 3rem;
+  width: 3rem;
+}
+
+#earth-bg {
+  font-size: 0.5rem;
+  color: white;
+  text-decoration: none;
+  background-color: black;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  height: 3rem;
+  width: 3rem;
+}
+
+#mars-bg {
+  font-size: 0.5rem;
+  color: white;
+  text-decoration: none;
+  background-color: black;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  height: 3rem;
+  width: 3rem;
+}
+
+#jupiter-bg {
+  font-size: 0.5rem;
+  color: white;
+  text-decoration: none;
+  background-color: black;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  height: 3rem;
+  width: 3rem;
+}
+
+#saturn-bg {
+  font-size: 0.5rem;
+  color: white;
+  text-decoration: none;
+  background-color: black;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  height: 3rem;
+  width: 3rem;
+}
+
+#uranus-bg {
+  font-size: 0.5rem;
+  color: white;
+  text-decoration: none;
+  background-color: black;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  height: 3rem;
+  width: 3rem;
+}
+
+#neptune-bg {
+  font-size: 0.5rem;
+  color: white;
+  text-decoration: none;
+  background-color: black;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  height: 3rem;
+  width: 3rem;
+}
+
+#pluto-bg {
+  font-size: 0.5rem;
+  color: white;
+  text-decoration: none;
+  background-color: black;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  height: 3rem;
+  width: 3rem;
+}
+
+#mercury-bg:hover {
+  background-image: url(Assets/Bilder/Mercury_in_true_color.jpg);
+}
+
+#venus-bg:hover {
+  background-image: url(Assets/Bilder/standard_venus_radar.jpg);
+}
+
+#earth-bg:hover {
+  background-image: url(Assets/Bilder/The_Earth_seen_from_Apollo_17.jpg);
+}
+
+#mars-bg:hover {
+  background-image: url(Assets/Bilder/Mars_-_August_30_2021_-_Flickr_-_Kevin_M._Gill.png);
+}
+
+#jupiter-bg:hover {
+  background-image: url(Assets/Bilder/Jupiter_and_its_shrunken_Great_Red_Spot.jpg);
+}
+
+#saturn-bg:hover {
+  background-image: url(Assets/Bilder/Saturn_during_Equinox.jpg);
+}
+
+#uranus-bg:hover {
+  background-image: url(Assets/Bilder/Uranus2.jpg);
+}
+
+#neptune-bg:hover {
+  background-image: url(Assets/Bilder/PezBzd9Fehsq9XWgWMauVV-1200-80.jpg);
+}
+
+#pluto-bg:hover {
+  background-image: url(assets/Bilder/Pluto_\(Disney\)_transparent.png);
+}
 
 .bg-img {
   min-height: 100svh;
