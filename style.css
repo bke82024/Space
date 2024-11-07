@@ -115,6 +115,23 @@ a:hover {
 	border-radius: 25px;
 }
 
+.pluto-info {
+	font-size: 0.7rem;
+}
+
+.pluto-list {
+	font-size: 0.2rem;
+	list-style: circle;
+	display: flex;
+	flex-direction: column;
+	margin-top: 1rem;
+	padding-left: 0;
+}
+
+.pluto-list li {
+	font-size: 0.7rem;
+}
+
 @media (prefers-reduced-motion) {
 	html {
 		scroll-behavior: auto;
