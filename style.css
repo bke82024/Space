@@ -230,10 +230,27 @@ li {
     background-image: url(./assets/universe1.jpg);
 } */
 
+nav {
+  display: grid;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: rgb(0, 22, 5); */
+  /* padding: 20px; */
+  position: fixed;
+  width: 100%;
+}
+
 article {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+ul {
+  color: whitesmoke;
+  display: flex;
+  list-style: none;
+  column-gap: 20px;
 }
 
 .information {
