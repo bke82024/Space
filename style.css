@@ -1,23 +1,18 @@
-*{
-    margin: 0;
-    box-sizing: border-box;
-    font-size: 30px;
-    max-width:100%;
-    
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 30px;
+  max-width: 100%;
 }
 
-body{
-    min-height: 100svh;
-    background-image: url(./assets/pitchblack.webp);
-  
-    
+body {
+  min-height: 100svh;
+  background-image: url(./assets/pitchblack.webp);
 }
-
 
 html {
-    scroll-behavior: smooth;
-    background-image: url(./assets/pitchblack.webp);
-    
+  scroll-behavior: smooth;
+  background-image: url(./assets/pitchblack.webp);
 }
 
 .bg-img {
@@ -30,21 +25,19 @@ html {
   place-items: center;
   background-color: dimgrey;
   background-image: url(./assets/pitchblack.webp);
-  
 }
 /* #first {
     background-image: url(./assets/universe1.jpg);
 } */
 
-nav{
-    display: grid;
+nav {
+  display: grid;
   justify-content: space-between;
   align-items: center;
   /* background-color: rgb(0, 22, 5); */
   /* padding: 20px; */
   position: fixed;
   width: 100%;
-
 }
 
 article {
@@ -54,7 +47,7 @@ article {
 }
 
 ul {
-    color: whitesmoke;
+  color: whitesmoke;
   display: flex;
   list-style: none;
   column-gap: 20px;
@@ -66,7 +59,7 @@ ul {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  
+
   color: aliceblue;
 }
 
@@ -92,11 +85,10 @@ p {
 h1 {
   padding: 20px;
   /* background-color: hsl(57deg 96% 9%); */
-  color:white;
+  color: white;
   border-radius: 10px;
   letter-spacing: 3px;
 }
-
 
 h2 {
   padding: 2rem;
@@ -117,7 +109,6 @@ a:hover {
 .video-link {
   width: 600px;
   height: auto;
-  
 }
 
 @media (prefers-reduced-motion) {
