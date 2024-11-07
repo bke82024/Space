@@ -251,6 +251,23 @@ article {
   height: 50px;
 }
 
+footer {
+  height: 5rem;
+  display: flex;
+  color: white;
+  font-size: 0.5rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+footer p {
+  margin: 5px;
+}
+
+footer a {
+  font-size: 0.7rem;
+}
 div {
   max-width: 500px;
   min-height: 500px;
