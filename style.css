@@ -49,7 +49,7 @@ opacity: 1;
 }
 ul{
 	position: relative;
-	top: 2em;
+	top: .5em;
   display: flex;
   flex-direction: column;
   font-size: 3rem;
@@ -106,7 +106,6 @@ header {
 }
 
 html {
-  scroll-behavior: smooth;
   scroll-behavior: smooth;
 }
 
