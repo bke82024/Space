@@ -43,6 +43,7 @@ body {
   
 }
 .off-screen-menu.active {
+	top: 2em;
 opacity: 1;
   background-color: hsl(40, 33%, 4%, 70%);
 }
