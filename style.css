@@ -215,6 +215,17 @@ li {
   background-image: url(assets/Bilder/Pluto_\(Disney\)_transparent.png);
 }
 
+.cover {
+  min-height: 100svh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: grid;
+  place-items: center;
+  background-color: dimgrey;
+
+  background-image: url(./assets/Bilder/solsystemet.jpg);
+}
 .bg-img {
   min-height: 100svh;
   background-position: bottom;
@@ -224,7 +235,7 @@ li {
   display: grid;
   place-items: center;
   background-color: dimgrey;
-  background-image: url(./assets/Bilder/solsystemet.jpg);
+  background-image: url(./assets/pitchblack.webp);
 }
 /* #first {
     background-image: url(./assets/universe1.jpg);
