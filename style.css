@@ -109,53 +109,45 @@ html {
   scroll-behavior: smooth;
 }
 
-/* #sun-bg:hover {
+#sun-bg:hover {
   background-image: url(./assets/Bilder/Sun.png);
 }
 
 #mercury-bg:hover {
   background-image: url(./assets/Bilder/Mercury.png);
-  background-image: url(./assets/Bilder/Mercury.png);
 }
 
 #venus-bg:hover {
-  background-image: url(./assets/Bilder/Venus.png);
   background-image: url(./assets/Bilder/Venus.png);
 }
 
 #earth-bg:hover {
   background-image: url(./assets/Bilder/Earth.png);
-  background-image: url(./assets/Bilder/Earth.png);
 }
 
 #mars-bg:hover {
-  background-image: url(./assets/Bilder/Mars.png);
   background-image: url(./assets/Bilder/Mars.png);
 }
 
 #jupiter-bg:hover {
   background-image: url(./assets/Bilder/Jupiter.png);
-  background-image: url(./assets/Bilder/Jupiter.png);
 }
 
 #saturn-bg:hover {
-  background-image: url(./assets/Bilder/Saturn.png);
   background-image: url(./assets/Bilder/Saturn.png);
 }
 
 #uranus-bg:hover {
   background-image: url(./assets/Bilder/Uranus.png);
-  background-image: url(./assets/Bilder/Uranus.png);
 }
 
 #neptune-bg:hover {
-  background-image: url(./assets/Bilder/Neptun.png);
   background-image: url(./assets/Bilder/Neptun.png);
 }
 
 #pluto-bg:hover {
   background-image: url(./assets/Bilder/Pluto.png);
-} */
+}
 
 .cover {
   min-height: 100svh;
