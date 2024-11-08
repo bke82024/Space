@@ -3,6 +3,10 @@
   box-sizing: border-box;
   font-size: 30px;
   max-width: 100%;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 30px;
+  max-width: 100%;
 }
 
 body {
@@ -103,6 +107,7 @@ header {
 
 html {
   scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 /* #sun-bg:hover {
@@ -111,33 +116,41 @@ html {
 
 #mercury-bg:hover {
   background-image: url(./assets/Bilder/Mercury.png);
+  background-image: url(./assets/Bilder/Mercury.png);
 }
 
 #venus-bg:hover {
+  background-image: url(./assets/Bilder/Venus.png);
   background-image: url(./assets/Bilder/Venus.png);
 }
 
 #earth-bg:hover {
   background-image: url(./assets/Bilder/Earth.png);
+  background-image: url(./assets/Bilder/Earth.png);
 }
 
 #mars-bg:hover {
+  background-image: url(./assets/Bilder/Mars.png);
   background-image: url(./assets/Bilder/Mars.png);
 }
 
 #jupiter-bg:hover {
   background-image: url(./assets/Bilder/Jupiter.png);
+  background-image: url(./assets/Bilder/Jupiter.png);
 }
 
 #saturn-bg:hover {
+  background-image: url(./assets/Bilder/Saturn.png);
   background-image: url(./assets/Bilder/Saturn.png);
 }
 
 #uranus-bg:hover {
   background-image: url(./assets/Bilder/Uranus.png);
+  background-image: url(./assets/Bilder/Uranus.png);
 }
 
 #neptune-bg:hover {
+  background-image: url(./assets/Bilder/Neptun.png);
   background-image: url(./assets/Bilder/Neptun.png);
 }
 
@@ -164,6 +177,13 @@ html {
   background-attachment: fixed;
   display: grid;
   place-items: center;
+  min-height: 100svh;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: grid;
+  place-items: center;
 }
 
 nav {
@@ -177,9 +197,16 @@ article {
   display: flex;
   justify-content: center;
   align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 ul {
+  color: whitesmoke;
+  display: flex;
+  list-style: none;
+  column-gap: 20px;
   color: whitesmoke;
   display: flex;
   list-style: none;
@@ -192,7 +219,13 @@ ul {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  height: 100svh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 
+  color: aliceblue;
   color: aliceblue;
 }
 
@@ -209,13 +242,22 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 5rem;
+  display: flex;
+  color: white;
+  font-size: 0.5rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 footer p {
   margin: 5px;
+  margin: 5px;
 }
 
 footer a {
+  font-size: 0.7rem;
   font-size: 0.7rem;
 }
 .paragraph-container,
@@ -235,9 +277,24 @@ p {
   line-height: 25px;
   margin-top: 20px;
   letter-spacing: 1px;
+  font-size: 24px;
+  letter-spacing: 0.6px;
+  line-height: 25px;
+  margin-top: 20px;
+  letter-spacing: 1px;
+  font-size: 20px;
+  letter-spacing: 0.6px;
+  line-height: 25px;
+  margin-top: 20px;
+  letter-spacing: 1px;
 }
 
 h1 {
+  padding: 20px;
+  /* background-color: hsl(57deg 96% 9%); */
+  color: white;
+  border-radius: 10px;
+  letter-spacing: 3px;
   padding: 20px;
   /* background-color: hsl(57deg 96% 9%); */
   color: white;
@@ -252,17 +309,27 @@ h2 {
   color: white;
   border-radius: 10px;
   letter-spacing: 3px;
+  padding: 2rem;
+  font-size: 2rem;
+  /* background-color: hsla(57, 96%, 9%, 65%); */
+  color: white;
+  border-radius: 10px;
+  letter-spacing: 3px;
 }
 
 h3 {
+  font-size: 2rem;
   font-size: 2rem;
 }
 
 a {
   color: aliceblue;
   text-decoration: none;
+  color: aliceblue;
+  text-decoration: none;
 }
 a:hover {
+  color: gray;
   color: gray;
 }
 
@@ -272,6 +339,10 @@ a:hover {
 }
 
 .video-link video {
+  width: 500px;
+  height: 281px;
+  object-fit: cover;
+  border-radius: 25px;
   width: 500px;
   height: 281px;
   object-fit: cover;
