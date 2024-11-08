@@ -52,9 +52,13 @@ ul{
 	top: .5em;
   display: flex;
   flex-direction: column;
-  font-size: 3rem;
+  /* font-size: 3rem; */
   transition: 0.3s ease;
+
+  
 }
+
+
 
 
 header {
@@ -108,6 +112,82 @@ header {
 html {
   scroll-behavior: smooth;
 }
+
+
+a {
+  display: inline-block;  
+  text-decoration: none;   
+  color: white;          
+  transition: background-image 0.3s ease; 
+}
+
+/* Hover effect for each planet */
+#sun-bg:hover {
+  background-image: url(./assets/Bilder/Sun.png);
+  background-size: cover;
+  background-position: center;
+}
+
+#mercury-bg:hover {
+  background-image: url(./assets/Bilder/Mercury.png);
+  background-size: cover;
+  background-position: center;
+}
+
+#venus-bg:hover {
+  background-image: url(./assets/Bilder/Venus.png);
+  background-size: cover;
+  background-position: center;
+}
+
+#earth-bg:hover {
+  background-image: url(./assets/Bilder/Earth.png);
+  background-size: cover;
+  background-position: center;
+}
+
+#mars-bg:hover {
+  background-image: url(./assets/Bilder/Mars.png);
+  background-size: cover;
+  background-position: center;
+}
+
+#jupiter-bg:hover {
+  background-image: url(./assets/Bilder/Jupiter.png);
+  background-size: cover;
+  background-position: center;
+}
+
+#saturn-bg:hover {
+  background-image: url(./assets/Bilder/Saturn.png);
+  background-size: cover;
+  background-position: center;
+}
+
+#uranus-bg:hover {
+  background-image: url(./assets/Bilder/Uranus.png);
+  background-size: cover;
+  background-position: center;
+}
+
+#neptune-bg:hover {
+  background-image: url(./assets/Bilder/Neptun.png);
+  background-size: cover;
+  background-position: center;
+}
+
+#pluto-bg:hover {
+  background-image: url(./assets/Bilder/Pluto.png);
+  background-size: cover;
+  background-position: center;
+}
+
+a {
+  background-color: rgba(0, 0, 0, 0.5); 
+}
+
+
+
 
 #sun-bg:hover {
   background-image: url(./assets/Bilder/Sun.png);
@@ -197,7 +277,7 @@ article {
   align-items: center;
 }
 
-ul {
+/* ul {
   color: whitesmoke;
   display: flex;
   list-style: none;
@@ -205,8 +285,7 @@ ul {
   color: whitesmoke;
   display: flex;
   list-style: none;
-  column-gap: 20px;
-}
+} */
 
 .information {
   height: 100svh;
