@@ -38,12 +38,12 @@ body {
   max-width: 450px;
   height: 100vh;
   	position: relative;
-	top: 0;
+	top: -70px;
 	right: -500px
   
 }
 .off-screen-menu.active {
-	top: 2em;
+  margin: 10px;
 opacity: 1;
   background-color: hsl(40, 33%, 4%, 70%);
 }
@@ -191,6 +191,10 @@ nav {
   display: flex;
   align-items: center;
   font-size: 0.8rem;
+}
+
+#nav-list li{
+  margin: 10px;
 }
 
 article {
