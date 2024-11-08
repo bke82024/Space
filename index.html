@@ -5,12 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Side om verdensrommet</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
   </head>
   <body>
     <header>
-      <nav id="navigate">
-        <h1>The Solar System</h1>
-        <ul>
+
+
+
+   <div class="off-screen-menu">
+       <ul>
           <li>
             <a href="#sun" id="sun-bg">Sun</a>
           </li>
@@ -40,15 +43,25 @@
           </li>
           <li><a href="#pluto" id="pluto-bg">Pluto</a></li>
         </ul>
-      </nav>
-    </header>
+    </div>
+
+      <nav id="navigate">
+        <h1>The Solar System</h1>
+        <div class="ham-menu" id="btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+ </header>
+
     <section class="cover">
       <h2>Our Solar System</h2>
     </section>
     <main>
-      <section class="bg-img" id="first"></section>
-
-      <section class="information">
+      <section id="sun" class="bg-img" ></section>
+<section class="information">
         <article>
           <div class="paragraph-container">
             <h3>The Sun</h3>
@@ -316,8 +329,8 @@
         </article>
       </section>
 
-      <section id="neptun" class="bg-img">
-        <h2>Neptun</h2>
+      <section id="neptune" class="bg-img">
+        <h2>Neptune</h2>
       </section>
       <section class="information">
         <article>

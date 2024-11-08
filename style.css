@@ -3,6 +3,10 @@
   box-sizing: border-box;
   font-size: 30px;
   max-width: 100%;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 30px;
+  max-width: 100%;
 }
 
 body {
@@ -12,85 +16,147 @@ body {
   background-size: cover;
   background-attachment: fixed;
 }
-
-nav {
-  position: fixed;
+a {
+  color: white;
+}
+a:visited {
+  color: white;
+}
+a:hover {
+  color: #6f86ff;
 }
 
-#navigate {
+body {
+  background-color: rgb(65, 71, 97);
+  font-family: sans-serif;
+}
+
+/* off-screen-menu */
+.off-screen-menu {
+	opacity: 0;
+  width: 100%;
+  max-width: 450px;
+  height: 100vh;
+  	position: relative;
+	top: 0;
+	right: -500px
+  
+}
+.off-screen-menu.active {
+	top: 2em;
+opacity: 1;
+  background-color: hsl(40, 33%, 4%, 70%);
+}
+ul{
+	position: relative;
+	top: 2em;
   display: flex;
-  justify-content: center;
   flex-direction: column;
+  font-size: 3rem;
+  transition: 0.3s ease;
+}
+
+
+header {
+	background-color: hsl(40, 33%, 4%, 70%);
+	z-index: 1;
+	position: fixed;
+	padding: 2em;
+  display: flex;
+  justify-content: end;
+  width: 100%;
+  height: 50px;
+}
+.ham-menu {
+  height: 50px;
+  width: 40px;
+  margin-left: auto;
+  position: relative;
+}
+.ham-menu span {
+  height: 5px;
+  width: 100%;
+  background-color: #6f86ff;
+  border-radius: 25px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  transition: 0.3s ease;
+}
+.ham-menu span:nth-child(1) {
+  top: 25%;
+}
+.ham-menu span:nth-child(3) {
+  top: 75%;
+}
+.ham-menu.active span {
+  background-color: white;;
+}
+.ham-menu.active span:nth-child(1) {
+  top: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+.ham-menu.active span:nth-child(2) {
+  opacity: 0;
+}
+.ham-menu.active span:nth-child(3) {
+  top: 50%;
+  transform: translate(-50%, -50%) rotate(-45deg);
 }
 
 html {
   scroll-behavior: smooth;
-}
-ul {
-  gap: 0.5rem;
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  text-decoration: none;
-}
-li {
-  font-size: 0.5rem;
-  text-decoration: none;
-  list-style: none;
-  color: white;
-}
-.nav-link {
-  font-size: 0.8rem;
-  color: white;
-  text-decoration: none;
-  background-size: cover;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  display: flex;
-  height: 3rem;
-  width: 3rem;
+  scroll-behavior: smooth;
 }
 
-#sun-bg:hover {
+/* #sun-bg:hover {
   background-image: url(./assets/Bilder/Sun.png);
 }
 
 #mercury-bg:hover {
   background-image: url(./assets/Bilder/Mercury.png);
+  background-image: url(./assets/Bilder/Mercury.png);
 }
 
 #venus-bg:hover {
+  background-image: url(./assets/Bilder/Venus.png);
   background-image: url(./assets/Bilder/Venus.png);
 }
 
 #earth-bg:hover {
   background-image: url(./assets/Bilder/Earth.png);
+  background-image: url(./assets/Bilder/Earth.png);
 }
 
 #mars-bg:hover {
+  background-image: url(./assets/Bilder/Mars.png);
   background-image: url(./assets/Bilder/Mars.png);
 }
 
 #jupiter-bg:hover {
   background-image: url(./assets/Bilder/Jupiter.png);
+  background-image: url(./assets/Bilder/Jupiter.png);
 }
 
 #saturn-bg:hover {
+  background-image: url(./assets/Bilder/Saturn.png);
   background-image: url(./assets/Bilder/Saturn.png);
 }
 
 #uranus-bg:hover {
   background-image: url(./assets/Bilder/Uranus.png);
+  background-image: url(./assets/Bilder/Uranus.png);
 }
 
 #neptune-bg:hover {
+  background-image: url(./assets/Bilder/Neptun.png);
   background-image: url(./assets/Bilder/Neptun.png);
 }
 
 #pluto-bg:hover {
   background-image: url(./assets/Bilder/Pluto.png);
-}
+} */
 
 .cover {
   min-height: 100svh;
@@ -111,17 +177,19 @@ li {
   background-attachment: fixed;
   display: grid;
   place-items: center;
+  min-height: 100svh;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: grid;
+  place-items: center;
 }
 
 nav {
   z-index: 1;
-  display: grid;
-  justify-content: space-between;
+  display: flex;
   align-items: center;
-  /* background-color: rgb(0, 22, 5); */
-  /* padding: 20px; */
-  position: fixed;
-  width: 100%;
   font-size: 0.8rem;
 }
 
@@ -129,9 +197,16 @@ article {
   display: flex;
   justify-content: center;
   align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 ul {
+  color: whitesmoke;
+  display: flex;
+  list-style: none;
+  column-gap: 20px;
   color: whitesmoke;
   display: flex;
   list-style: none;
@@ -144,16 +219,29 @@ ul {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  height: 100svh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 
+  color: aliceblue;
   color: aliceblue;
 }
 
-#first div {
-  margin-top: 50px;
-  height: 50px;
-}
+/* #first div {
+	margin-top: 50px;
+	height: 50px; */
+/* } */
 
 footer {
+  height: 5rem;
+  display: flex;
+  color: white;
+  font-size: 0.5rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   height: 5rem;
   display: flex;
   color: white;
@@ -165,18 +253,30 @@ footer {
 
 footer p {
   margin: 5px;
+  margin: 5px;
 }
 
 footer a {
   font-size: 0.7rem;
+  font-size: 0.7rem;
 }
-div {
+.paragraph-container,
+.video-link {
   max-width: 500px;
-  min-height: 500px;
   margin: 20px 100px 0px 0px;
 }
 
 p {
+  font-size: 24px;
+  letter-spacing: 0.6px;
+  line-height: 25px;
+  margin-top: 20px;
+  letter-spacing: 1px;
+  font-size: 20px;
+  letter-spacing: 0.6px;
+  line-height: 25px;
+  margin-top: 20px;
+  letter-spacing: 1px;
   font-size: 24px;
   letter-spacing: 0.6px;
   line-height: 25px;
@@ -195,9 +295,20 @@ h1 {
   color: white;
   border-radius: 10px;
   letter-spacing: 3px;
+  padding: 20px;
+  /* background-color: hsl(57deg 96% 9%); */
+  color: white;
+  border-radius: 10px;
+  letter-spacing: 3px;
 }
 
 h2 {
+  padding: 2rem;
+  font-size: 2rem;
+  /* background-color: hsla(57, 96%, 9%, 65%); */
+  color: white;
+  border-radius: 10px;
+  letter-spacing: 3px;
   padding: 2rem;
   font-size: 2rem;
   /* background-color: hsla(57, 96%, 9%, 65%); */
@@ -208,13 +319,17 @@ h2 {
 
 h3 {
   font-size: 2rem;
+  font-size: 2rem;
 }
 
 a {
   color: aliceblue;
   text-decoration: none;
+  color: aliceblue;
+  text-decoration: none;
 }
 a:hover {
+  color: gray;
   color: gray;
 }
 
@@ -224,6 +339,10 @@ a:hover {
 }
 
 .video-link video {
+  width: 500px;
+  height: 281px;
+  object-fit: cover;
+  border-radius: 25px;
   width: 500px;
   height: 281px;
   object-fit: cover;
