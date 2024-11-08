@@ -105,7 +105,7 @@ html {
   scroll-behavior: smooth;
 }
 
-#sun-bg:hover {
+/* #sun-bg:hover {
   background-image: url(./assets/Bilder/Sun.png);
 }
 
@@ -143,7 +143,7 @@ html {
 
 #pluto-bg:hover {
   background-image: url(./assets/Bilder/Pluto.png);
-}
+} */
 
 .cover {
   min-height: 100svh;
