@@ -16,56 +16,39 @@ body {
   background-size: cover;
   background-attachment: fixed;
 }
-a {
-  color: white;
-}
-a:visited {
-  color: white;
-}
-a:hover {
-  color: #6f86ff;
-}
 
 body {
   background-color: rgb(65, 71, 97);
   font-family: sans-serif;
 }
 
-/* off-screen-menu */
 .off-screen-menu {
-	opacity: 0;
+  opacity: 0;
   width: 100%;
   max-width: 450px;
   height: 100vh;
-  	position: relative;
-	top: -70px;
-	right: -500px
-  
+  position: relative;
+  top: -70px;
+  right: -500px;
 }
 .off-screen-menu.active {
-	top: 2em;
-opacity: 1;
+  top: 2em;
+  opacity: 1;
   background-color: hsl(40, 33%, 4%, 70%);
 }
-ul{
-	position: relative;
-	top: .5em;
+ul {
+  position: relative;
+  top: 0.5em;
   display: flex;
   flex-direction: column;
-  /* font-size: 3rem; */
   transition: 0.3s ease;
-
-  
 }
 
-
-
-
 header {
-	background-color: hsl(40, 33%, 4%, 70%);
-	z-index: 1;
-	position: fixed;
-	padding: 2em;
+  background-color: hsl(40, 33%, 4%, 70%);
+  z-index: 1;
+  position: fixed;
+  padding: 2em;
   display: flex;
   justify-content: end;
   width: 100%;
@@ -95,7 +78,7 @@ header {
   top: 75%;
 }
 .ham-menu.active span {
-  background-color: white;;
+  background-color: white;
 }
 .ham-menu.active span:nth-child(1) {
   top: 50%;
@@ -113,12 +96,11 @@ html {
   scroll-behavior: smooth;
 }
 
-
 a {
-  display: inline-block;  
-  text-decoration: none;   
-  color: white;          
-  transition: background-image 0.3s ease; 
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  transition: background-image 0.3s ease;
 }
 
 /* Hover effect for each planet */
@@ -183,50 +165,7 @@ a {
 }
 
 a {
-  background-color: rgba(0, 0, 0, 0.5); 
-}
-
-
-
-
-#sun-bg:hover {
-  background-image: url(./assets/Bilder/Sun.png);
-}
-
-#mercury-bg:hover {
-  background-image: url(./assets/Bilder/Mercury.png);
-}
-
-#venus-bg:hover {
-  background-image: url(./assets/Bilder/Venus.png);
-}
-
-#earth-bg:hover {
-  background-image: url(./assets/Bilder/Earth.png);
-}
-
-#mars-bg:hover {
-  background-image: url(./assets/Bilder/Mars.png);
-}
-
-#jupiter-bg:hover {
-  background-image: url(./assets/Bilder/Jupiter.png);
-}
-
-#saturn-bg:hover {
-  background-image: url(./assets/Bilder/Saturn.png);
-}
-
-#uranus-bg:hover {
-  background-image: url(./assets/Bilder/Uranus.png);
-}
-
-#neptune-bg:hover {
-  background-image: url(./assets/Bilder/Neptun.png);
-}
-
-#pluto-bg:hover {
-  background-image: url(./assets/Bilder/Pluto.png);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .cover {
@@ -237,17 +176,11 @@ a {
   display: grid;
   place-items: center;
   background-color: dimgrey;
+  opacity: 1;
 
   background-image: url(./assets/Bilder/solsystemet.jpg);
 }
 .bg-img {
-  min-height: 100svh;
-  background-position: bottom;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  display: grid;
-  place-items: center;
   min-height: 100svh;
   background-position: bottom;
   background-repeat: no-repeat;
@@ -264,7 +197,7 @@ nav {
   font-size: 0.8rem;
 }
 
-#nav-list li{
+#nav-list li {
   margin: 10px;
 }
 
@@ -272,20 +205,7 @@ article {
   display: flex;
   justify-content: center;
   align-items: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
-
-/* ul {
-  color: whitesmoke;
-  display: flex;
-  list-style: none;
-  column-gap: 20px;
-  color: whitesmoke;
-  display: flex;
-  list-style: none;
-} */
 
 .information {
   height: 100svh;
@@ -293,29 +213,10 @@ article {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 100svh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-
-  color: aliceblue;
   color: aliceblue;
 }
 
-/* #first div {
-	margin-top: 50px;
-	height: 50px; */
-/* } */
-
 footer {
-  height: 5rem;
-  display: flex;
-  color: white;
-  font-size: 0.5rem;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   height: 5rem;
   display: flex;
   color: white;
@@ -327,11 +228,9 @@ footer {
 
 footer p {
   margin: 5px;
-  margin: 5px;
 }
 
 footer a {
-  font-size: 0.7rem;
   font-size: 0.7rem;
 }
 .paragraph-container,
@@ -345,47 +244,19 @@ p {
   letter-spacing: 0.6px;
   line-height: 25px;
   margin-top: 20px;
-  letter-spacing: 1px;
-  font-size: 20px;
-  letter-spacing: 0.6px;
-  line-height: 25px;
-  margin-top: 20px;
-  letter-spacing: 1px;
-  font-size: 24px;
-  letter-spacing: 0.6px;
-  line-height: 25px;
-  margin-top: 20px;
-  letter-spacing: 1px;
-  font-size: 20px;
-  letter-spacing: 0.6px;
-  line-height: 25px;
-  margin-top: 20px;
-  letter-spacing: 1px;
 }
 
 h1 {
   padding: 20px;
-  /* background-color: hsl(57deg 96% 9%); */
   color: white;
   border-radius: 10px;
   letter-spacing: 3px;
   padding: 20px;
-  /* background-color: hsl(57deg 96% 9%); */
-  color: white;
-  border-radius: 10px;
-  letter-spacing: 3px;
 }
 
 h2 {
   padding: 2rem;
   font-size: 2rem;
-  /* background-color: hsla(57, 96%, 9%, 65%); */
-  color: white;
-  border-radius: 10px;
-  letter-spacing: 3px;
-  padding: 2rem;
-  font-size: 2rem;
-  /* background-color: hsla(57, 96%, 9%, 65%); */
   color: white;
   border-radius: 10px;
   letter-spacing: 3px;
@@ -393,17 +264,13 @@ h2 {
 
 h3 {
   font-size: 2rem;
-  font-size: 2rem;
 }
 
 a {
   color: aliceblue;
   text-decoration: none;
-  color: aliceblue;
-  text-decoration: none;
 }
 a:hover {
-  color: gray;
   color: gray;
 }
 
@@ -413,10 +280,6 @@ a:hover {
 }
 
 .video-link video {
-  width: 500px;
-  height: 281px;
-  object-fit: cover;
-  border-radius: 25px;
   width: 500px;
   height: 281px;
   object-fit: cover;
