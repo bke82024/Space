@@ -3,10 +3,6 @@
   box-sizing: border-box;
   font-size: 30px;
   max-width: 100%;
-  margin: 0;
-  box-sizing: border-box;
-  font-size: 30px;
-  max-width: 100%;
 }
 
 body {
@@ -15,11 +11,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-}
-
-body {
-  background-color: rgb(65, 71, 97);
-  font-family: sans-serif;
 }
 
 .off-screen-menu {
@@ -162,10 +153,6 @@ a {
   background-image: url(./assets/Bilder/Pluto.png);
   background-size: cover;
   background-position: center;
-}
-
-a {
-  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .cover {
