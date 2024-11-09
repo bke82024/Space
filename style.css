@@ -1,301 +1,304 @@
 * {
-  margin: 0;
-  box-sizing: border-box;
-  font-size: 30px;
-  max-width: 100%;
+	margin: 0;
+	box-sizing: border-box;
+	font-size: 30px;
+	max-width: 100%;
 }
 
 body {
-  min-height: 100svh;
-  background-image: url(./assets/pitchblack.webp);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
+	min-height: 100svh;
+	background-image: url(./assets/pitchblack.webp);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
 }
 
 .off-screen-menu {
-  opacity: 0;
-  width: 100%;
-  max-width: 450px;
-  height: 100vh;
-  position: relative;
-  top: -70px;
-  right: -500px;
+	opacity: 0;
+	width: 100%;
+	max-width: 450px;
+	height: 100vh;
+	position: relative;
+	top: -70px;
+	right: -500px;
 }
 .off-screen-menu.active {
-  top: 2em;
-  opacity: 1;
-  background-color: hsl(40, 33%, 4%, 70%);
+	top: 2em;
+	opacity: 1;
+	background-color: hsl(40, 33%, 4%, 70%);
+}
+.off-screen-menu li {
+	list-style: none;
 }
 ul {
-  position: relative;
-  top: 0.5em;
-  display: flex;
-  flex-direction: column;
-  transition: 0.3s ease;
+	position: relative;
+	top: 0.5em;
+	display: flex;
+	flex-direction: column;
+	transition: 0.3s ease;
 }
 
 header {
-  background-color: hsl(40, 33%, 4%, 70%);
-  z-index: 1;
-  position: fixed;
-  padding: 2em;
-  display: flex;
-  justify-content: end;
-  width: 100%;
-  height: 50px;
+	background-color: hsl(40, 33%, 4%, 70%);
+	z-index: 1;
+	position: fixed;
+	padding: 2em;
+	display: flex;
+	justify-content: end;
+	width: 100%;
+	height: 50px;
 }
 .ham-menu {
-  height: 50px;
-  width: 40px;
-  margin-left: auto;
-  position: relative;
+	height: 50px;
+	width: 40px;
+	margin-left: auto;
+	position: relative;
 }
 .ham-menu span {
-  height: 5px;
-  width: 100%;
-  background-color: #6f86ff;
-  border-radius: 25px;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  transition: 0.3s ease;
+	height: 5px;
+	width: 100%;
+	background-color: #6f86ff;
+	border-radius: 25px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	transition: 0.3s ease;
 }
 .ham-menu span:nth-child(1) {
-  top: 25%;
+	top: 25%;
 }
 .ham-menu span:nth-child(3) {
-  top: 75%;
+	top: 75%;
 }
 .ham-menu.active span {
-  background-color: white;
+	background-color: white;
 }
 .ham-menu.active span:nth-child(1) {
-  top: 50%;
-  transform: translate(-50%, -50%) rotate(45deg);
+	top: 50%;
+	transform: translate(-50%, -50%) rotate(45deg);
 }
 .ham-menu.active span:nth-child(2) {
-  opacity: 0;
+	opacity: 0;
 }
 .ham-menu.active span:nth-child(3) {
-  top: 50%;
-  transform: translate(-50%, -50%) rotate(-45deg);
+	top: 50%;
+	transform: translate(-50%, -50%) rotate(-45deg);
 }
 
 html {
-  scroll-behavior: smooth;
+	scroll-behavior: smooth;
 }
 
 a {
-  display: inline-block;
-  text-decoration: none;
-  color: white;
-  transition: background-image 0.3s ease;
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+	transition: background-image 0.3s ease;
 }
 
 /* Hover effect for each planet */
 #sun-bg:hover {
-  background-image: url(./assets/Bilder/Sun.png);
-  background-size: cover;
-  background-position: center;
+	background-image: url(./assets/Bilder/Sun.png);
+	background-size: cover;
+	background-position: center;
 }
 
 #mercury-bg:hover {
-  background-image: url(./assets/Bilder/Mercury.png);
-  background-size: cover;
-  background-position: center;
+	background-image: url(./assets/Bilder/Mercury.png);
+	background-size: cover;
+	background-position: center;
 }
 
 #venus-bg:hover {
-  background-image: url(./assets/Bilder/Venus.png);
-  background-size: cover;
-  background-position: center;
+	background-image: url(./assets/Bilder/Venus.png);
+	background-size: cover;
+	background-position: center;
 }
 
 #earth-bg:hover {
-  background-image: url(./assets/Bilder/Earth.png);
-  background-size: cover;
-  background-position: center;
+	background-image: url(./assets/Bilder/Earth.png);
+	background-size: cover;
+	background-position: center;
 }
 
 #mars-bg:hover {
-  background-image: url(./assets/Bilder/Mars.png);
-  background-size: cover;
-  background-position: center;
+	background-image: url(./assets/Bilder/Mars.png);
+	background-size: cover;
+	background-position: center;
 }
 
 #jupiter-bg:hover {
-  background-image: url(./assets/Bilder/Jupiter.png);
-  background-size: cover;
-  background-position: center;
+	background-image: url(./assets/Bilder/Jupiter.png);
+	background-size: cover;
+	background-position: center;
 }
 
 #saturn-bg:hover {
-  background-image: url(./assets/Bilder/Saturn.png);
-  background-size: cover;
-  background-position: center;
+	background-image: url(./assets/Bilder/Saturn.png);
+	background-size: cover;
+	background-position: center;
 }
 
 #uranus-bg:hover {
-  background-image: url(./assets/Bilder/Uranus.png);
-  background-size: cover;
-  background-position: center;
+	background-image: url(./assets/Bilder/Uranus.png);
+	background-size: cover;
+	background-position: center;
 }
 
 #neptune-bg:hover {
-  background-image: url(./assets/Bilder/Neptun.png);
-  background-size: cover;
-  background-position: center;
+	background-image: url(./assets/Bilder/Neptun.png);
+	background-size: cover;
+	background-position: center;
 }
 
 #pluto-bg:hover {
-  background-image: url(./assets/Bilder/Pluto.png);
-  background-size: cover;
-  background-position: center;
+	background-image: url(./assets/Bilder/Pluto.png);
+	background-size: cover;
+	background-position: center;
 }
 
 .cover {
-  min-height: 100svh;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  display: grid;
-  place-items: center;
-  background-color: dimgrey;
-  opacity: 1;
+	min-height: 100svh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	display: grid;
+	place-items: center;
+	background-color: dimgrey;
+	opacity: 1;
 
-  background-image: url(./assets/Bilder/solsystemet.jpg);
+	background-image: url(./assets/Bilder/solsystemet.jpg);
 }
 .bg-img {
-  min-height: 100svh;
-  background-position: bottom;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  display: grid;
-  place-items: center;
+	min-height: 100svh;
+	background-position: bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	display: grid;
+	place-items: center;
 }
 
 nav {
-  z-index: 1;
-  display: flex;
-  align-items: center;
-  font-size: 0.8rem;
+	z-index: 1;
+	display: flex;
+	align-items: center;
+	font-size: 0.8rem;
 }
 
 #nav-list li {
-  margin: 10px;
+	margin: 10px;
 }
 
 article {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .information {
-  height: 100svh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  color: aliceblue;
+	height: 100svh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	color: aliceblue;
 }
 
 footer {
-  height: 5rem;
-  display: flex;
-  color: white;
-  font-size: 0.5rem;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+	height: 5rem;
+	display: flex;
+	color: white;
+	font-size: 0.5rem;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 footer p {
-  margin: 5px;
+	margin: 5px;
 }
 
 footer a {
-  font-size: 0.7rem;
+	font-size: 0.7rem;
 }
 .paragraph-container,
 .video-link {
-  max-width: 500px;
-  margin: 20px 100px 0px 0px;
+	max-width: 500px;
+	margin: 20px 100px 0px 0px;
 }
 
 p {
-  font-size: 24px;
-  letter-spacing: 0.6px;
-  line-height: 25px;
-  margin-top: 20px;
+	font-size: 24px;
+	letter-spacing: 0.6px;
+	line-height: 25px;
+	margin-top: 20px;
 }
 
 h1 {
-  padding: 20px;
-  color: white;
-  border-radius: 10px;
-  letter-spacing: 3px;
-  padding: 20px;
+	padding: 20px;
+	color: white;
+	border-radius: 10px;
+	letter-spacing: 3px;
+	padding: 20px;
 }
 
 h2 {
-  padding: 2rem;
-  font-size: 2rem;
-  color: white;
-  border-radius: 10px;
-  letter-spacing: 3px;
+	padding: 2rem;
+	font-size: 2rem;
+	color: white;
+	border-radius: 10px;
+	letter-spacing: 3px;
 }
 
 h3 {
-  font-size: 2rem;
+	font-size: 2rem;
 }
 
 a {
-  color: aliceblue;
-  text-decoration: none;
+	color: aliceblue;
+	text-decoration: none;
 }
 a:hover {
-  color: gray;
+	color: gray;
 }
 
 .video-link {
-  width: 600px;
-  height: auto;
+	width: 600px;
+	height: auto;
 }
 
 .video-link video {
-  width: 500px;
-  height: 281px;
-  object-fit: cover;
-  border-radius: 25px;
+	width: 500px;
+	height: 281px;
+	object-fit: cover;
+	border-radius: 25px;
 }
 
 #uranus-video video {
-  object-position: 50% 33%;
+	object-position: 50% 33%;
 }
 
 .pluto-info {
-  font-size: 0.7rem;
+	font-size: 0.7rem;
 }
 
 .pluto-list {
-  font-size: 0.2rem;
-  list-style: circle;
-  display: flex;
-  flex-direction: column;
-  margin-top: 1rem;
-  padding-left: 0;
+	font-size: 0.2rem;
+	list-style: circle;
+	display: flex;
+	flex-direction: column;
+	margin-top: 1rem;
+	padding-left: 0;
 }
 
 .pluto-list li {
-  font-size: 0.7rem;
+	font-size: 0.7rem;
 }
 
 @media (prefers-reduced-motion) {
-  html {
-    scroll-behavior: auto;
-  }
+	html {
+		scroll-behavior: auto;
+	}
 }
