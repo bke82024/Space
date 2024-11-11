@@ -26,6 +26,8 @@ body {
 	top: 2em;
 	opacity: 1;
 	background-color: hsl(40, 33%, 4%, 70%);
+	position: absolute;
+	right: 0;
 }
 .off-screen-menu li {
 	list-style: none;
@@ -296,6 +298,20 @@ a:hover {
 .pluto-list li {
 	font-size: 0.7rem;
 }
+
+@media screen and (max-width: 768px) {
+  article {
+    display: block;
+  }
+
+  }
+.cover{
+	background-size: cover;
+	
+}
+
+
+
 
 @media (prefers-reduced-motion) {
 	html {
